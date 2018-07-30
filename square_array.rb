@@ -4,13 +4,12 @@ def square_array(array)
   new_numbers=[]
   array.each {|number| new_numbers << number*number}
   new_numbers
-  return new_numbers
 end
 
 
 array.collect {|number| number*number}
 
-def square_array(array)
+def adv_square_array(array)
   array.collect {|number| new_numbers << number*number}
   array
   return array
