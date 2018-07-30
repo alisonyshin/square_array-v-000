@@ -3,8 +3,6 @@ numbers = [1,2,3]
 def square_array(array)
   new_numbers=[]
   array.each {|number| new_numbers << number*number}
-    new_number = number * number
-    new_numbers.push(new_number)
   end
   return new_numbers
 end
