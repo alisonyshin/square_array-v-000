@@ -6,4 +6,5 @@ def square_array(array)
     new_number = number * number
     new_numbers.push(new_number)
   end
+  return new_numbers
 end
