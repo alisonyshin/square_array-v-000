@@ -13,6 +13,6 @@ array.collect {|number| number*number}
 def square_array(array)
   new_numbers=[]
   array.collect {|number| new_numbers << number*number}
-  new_numbers
+  array
   return new_numbers
 end
