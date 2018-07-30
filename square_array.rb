@@ -7,8 +7,6 @@ def square_array(array)
 end
 
 
-array.collect {|number| number*number}
-
 def adv_square_array(array)
   array.collect {|number| number*number}
   puts array
