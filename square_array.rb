@@ -14,4 +14,4 @@ def adv_square_array(array)
   puts array
 end
 
-adv_square_array(nubers)
+adv_square_array(numbers)
