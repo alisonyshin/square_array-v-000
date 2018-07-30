@@ -12,5 +12,4 @@ array.collect {|number| number*number}
 def adv_square_array(array)
   array.collect {|number| new_numbers << number*number}
   array
-  return array
 end
