@@ -7,5 +7,3 @@ def square_array(array)
     new_numbers.push(new_number)
   end
 end
-
-square_array(numbers)
