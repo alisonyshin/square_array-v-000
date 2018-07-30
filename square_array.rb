@@ -11,5 +11,3 @@ def adv_square_array(array)
   new_array = array.collect {|number| number*number}
   puts new_array
 end
-
-adv_square_array(numbers)
