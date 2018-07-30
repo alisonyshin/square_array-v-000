@@ -10,6 +10,8 @@ end
 array.collect {|number| number*number}
 
 def adv_square_array(array)
-  array.collect {|number|  number*number}
+  array.collect {|number| number*number}
   puts array
 end
+
+adv_square_array(nubers)
