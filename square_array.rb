@@ -7,7 +7,12 @@ def square_array(array)
   return new_numbers
 end
 
-(1..4).collect { |i| i*i }
 
 array.collect {|number| number*number}
 
+def square_array(array)
+  new_numbers=[]
+  array.collect {|number| new_numbers << number*number}
+  new_numbers
+  return new_numbers
+end
